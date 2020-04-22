@@ -1,0 +1,19 @@
+.appgrid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: .35fr 1fr 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.carddiv {
+	grid-area: 2 / 2 / 3 / 3;
+}
+
+body {
+	background-color: skyblue;
+}
+
+.apptitle {
+  color: #0074D9;
+}
